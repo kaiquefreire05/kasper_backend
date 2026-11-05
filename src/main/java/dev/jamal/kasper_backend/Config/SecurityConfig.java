@@ -74,7 +74,8 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://kasper-ai-studio.vercel.app"
+                "https://kasper-ai-studio.vercel.app",
+                "https://plataforma-alunos-blue.vercel.app"
         ));
 
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
